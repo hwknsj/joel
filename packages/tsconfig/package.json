@@ -1,0 +1,35 @@
+{
+  "name": "@joel/tsconfig",
+  "description": "A tsconfig.json for your ESM projects",
+  "version": "0.1.0",
+  "author": {
+    "name": "joél hawkins torres",
+    "email": "joel@joel.fm",
+    "url": "https://joel.fm"
+  },
+  "type": "module",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hwknsj/joel.git",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "tsconfig",
+    "esm",
+    "typescript",
+    "config",
+    "modules",
+    "esmodule"
+  ]
+}

@@ -1,4 +1,18 @@
 {
-  "name": "joel.fm-config",
-  "packageManager": "yarn@4.3.1"
+  "name": "joel",
+  "author": {
+    "name": "joél hawkins torres",
+    "email": "joel@joel.fm",
+    "url": "https://joel.fm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hwknsj/joel.git"
+  },
+  "homepage": "https://joel.fm",
+  "private": true,
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "packages/*"
+  ]
 }
